@@ -1,0 +1,66 @@
+# --- Директории сборки ---
+build/
+out/
+cmake-build-*/
+bin/
+
+# --- CMake ---
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+compile_commands.json
+
+# --- vcpkg (manifest mode) ---
+vcpkg_installed/
+
+# --- Генерируемые файлы Qt ---
+*.user
+.qmake.stash
+Makefile*
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+*.qmlc
+*.jsc
+
+# --- IDE и редакторы ---
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.suo
+# VS Code
+.vscode/
+# CLion / IntelliJ
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Скомпилированные бинарные файлы и объекты ---
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+*.so
+*.dylib
+
+# --- Файлы операционной системы ---
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- Локальные тестовые базы данных (SQLite) ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Временные файлы и логи ---
+*.log
+*.tmp
