@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "lumina-photo",
+  "version-string": "1.0.0",
+  "description": "Native Windows Picasa-inspired photo organizer, PSD viewer, and non-destructive editor",
+  "dependencies": [
+    "qtbase",
+    "qtimageformats",
+	"qtsvg"
+  ],
+  "builtin-baseline": "fbeb863712b4131ba5a871cee4fbc66686d643e2"
+}
